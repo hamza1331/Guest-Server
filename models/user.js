@@ -15,12 +15,8 @@ const userSchema = {
      userType:{
          type:Boolean,
          required:true,
-                    //true:user false:vendor
+                    //true:vendor false:user
      },
-    city:{
-        type:String,
-        required:true
-    },
     cnic:{
         type:String,
         required:true
